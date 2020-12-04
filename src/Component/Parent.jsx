@@ -1,9 +1,10 @@
 import Child from './Child'
-const Parent = ({ num }) => {
+const Parent = () => {
+    console.log('parent is rendering');
     return (
         <div>
             <h2>Parent</h2>
-            <Child num={num} />
+            <Child />
         </div>
     )
 }
